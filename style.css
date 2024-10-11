@@ -1,0 +1,549 @@
+
+:root{
+
+  --bg:#023b6d;
+}
+.const{
+  background-color: var(--bg);
+}
+  .nav{
+      background-color: var(--bg);
+      color: white;
+  }
+
+  .picture{
+
+    filter: grayscale(100%);
+    transition: all 2s;
+  }
+
+  .picture:hover{
+    filter:grayscale(0);
+    scale: 2.1;
+  }
+
+  .picture1{
+
+    background-color: #F3F5FA;
+  }
+
+  .main-line{
+
+    width: 15%;
+    height: 1.5px;
+    background-color: gray;
+  }
+
+  .line{
+
+    width: 60%;
+    height: 4px;
+    background-color: #47B2E4 ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+  }
+
+  .image{
+
+    background-image: url(assets/img/why-us.png);
+  }
+
+  
+  
+
+
+
+
+
+  
+
+  .image{
+
+    animation: img 3s linear infinite alternate;
+  }
+
+  @keyframes img {
+
+    from{
+
+      transform: translateY(0) ;
+
+
+    }
+
+    to{
+
+      transform: translateY(-75px) ;
+
+
+    }
+  }
+
+  .image:hover{
+
+    animation-play-state: paused;
+  }
+
+  @media only screen and (max-width: 989px){
+
+.bt{
+
+justify-content:center;
+}
+
+.text-section{
+
+flex-direction: column-reverse;
+}
+
+.direction{
+
+display: flex;
+flex-direction: column-reverse;
+}
+
+.image{
+
+animation-play-state: paused;
+width: 50%;
+}
+}
+
+.line-div{
+
+    display: flex;
+   flex-direction: row;
+    
+
+
+}
+
+
+
+.line11{
+
+    width: 430px;
+    height: 8px;
+    
+    background-color: #4668A2;
+  
+    
+}
+.line22{
+
+    width: 430px;
+    height: 8px;
+   
+    background-color: #E8EDF5;
+  
+    
+}
+.line33{
+
+    width: 430px;
+   
+    height: 10;
+    background-color: #E8EDF5;
+  
+    
+}
+.line44{
+
+    width: 430px;
+   
+    height: 10px;
+    background-color: #E8EDF5;
+  
+    
+}
+.l11{
+
+    width: 380px;
+   
+    height: 10px;
+    background-color:#4668A2 ;
+  
+    
+}
+.l22{
+
+    width: 350px;
+    
+    height: 10px;
+    background-color:#4668A2 ;
+  
+    
+}
+.l33{
+
+    width: 300px;
+    
+    height: 10px;
+    background-color:#4668A2 ;
+  
+    
+}
+
+.t11 {
+
+    display:flex;
+    font-size: 10px;
+    justify-content:space-between;
+    color: #4668A2;
+}
+.t22 {
+
+    display:flex;
+    font-size: 10px;
+    justify-content:space-between;
+    color: #4668A2;
+    margin-top:10px;
+}
+.t33{
+
+    display:flex;
+    font-size: 10px;
+    justify-content:space-between;
+    color: #4668A2;
+    margin-top:10px;
+}
+.t44{
+
+    display:flex;
+    font-size: 10px;
+    justify-content:space-between;
+    color: #4668A2;
+    margin-top:10px;
+}
+
+
+.service11{
+
+    background-color:#F3F5FA;
+}
+
+.service{
+
+    margin: auto;
+}
+
+.service h1{
+
+    color: #4668A2;
+    
+
+}
+
+.text22{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.service-line{
+
+    width: 100px;
+    height: 2px;
+    background-color: white;
+}
+
+.small{
+
+    width: 40px;
+    height: 4px;
+    margin: auto;
+    background-color: #4668A2;
+    border-radius: 5px;;
+
+}
+
+.box{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 2rem;
+    
+}
+
+
+.box1{
+
+    width: 190px;
+    
+    padding:15px;
+    background: white;
+    margin-bottom: 30px;
+    box-shadow:hwb(from color h w b);
+    transition: all 0.2s linear;
+    
+    
+   
+
+
+}
+
+.box1:hover{
+
+  transform: translateY(-10px);
+  color: blue;
+}
+
+.box1:hover p{
+  color: black;
+}
+
+.box1 h5 {
+    color: #4668A2;
+   padding:  10px;
+}
+
+.icon{
+  padding:  10px;
+  color:#4668A2;
+}
+
+.clr{
+
+  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtYVlGX9p0TGr4u2OTZIv32ORKa448soiLEfuLhfhRvxLFREQm) fixed center center;
+  background-size:cover;
+}
+
+.main-body1{
+
+  background-color:#F3F5FA
+  
+}
+
+
+
+.text{
+
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sm{
+
+  width: 100px;
+  height: 1px;
+  background-color: #D5D5D7;
+}
+
+.inner{
+
+  width: 35px;
+  height: 3px;
+  background-color: #47B2E4;
+  margin: auto;
+  border-radius:4px;
+}
+
+.text p{
+
+  font-size: 14px;
+}
+
+.div1{
+  
+
+  display: flex;
+  justify-content: space-between;
+  gap:10px;
+ 
+
+}
+
+.card11{
+
+ 
+  background-color: #F3F5FA;
+  font-size: 12px;
+  display: flex;
+  transition: all 0.1s linear;
+  
+}
+  
+
+.card{
+
+  
+  height: 200px;
+   display: flex;
+  flex-direction: row  ;
+   justify-content: space-around;
+   border: none;
+   transition: all 0.1s linear;
+}
+
+.card:hover{
+
+  transform: translateY(-10px);
+}
+
+
+.main-price{
+
+
+  background-color: #FFFFFF;
+}
+
+.text-section{
+
+  margin: auto;
+  text-align: center;
+  padding : 20px;
+
+}
+
+.lne{
+
+  margin: 10px;
+}
+
+.text-line{
+
+
+  width: 100px;
+  height: 2px;
+  background-color: #F3F5FA;
+  text-align: center;
+  margin: auto;
+  
+}
+
+.text-line1{
+
+  width: 40px;
+  height: 3px;
+  background-color:#47B2E4;
+  margin: auto;
+  border-radius: 3px;
+  position: absolut;
+  top: 50%;
+  left: 50%;
+  transform: translate(-10%, -25%);
+}
+
+.text-section h1{
+
+  text-transform:uppercase;
+  font-weight: bold;
+  margin: 10px;
+  font-size: 27px;
+  color: #37517E;
+}
+
+.text-section p{
+
+  margin: 20px;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+}
+
+ul{
+
+  list-style: none;
+  text-decoration: none;
+}
+
+.container{
+
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.sect{
+
+  
+  padding: 20px;
+  box-shadow: 6px 6px 18px 9px #F3F5FA;
+  border-radius: 3px;
+  width: 30%;
+  
+}
+
+.sect2{
+
+  position: relative;
+}
+
+.upper-line{
+
+  width: 100%;
+  height: 3px;
+  top: 0%;
+  left: 50%;
+  border-radius: 3px 3px 0px 0px;
+ transform: translate(-50% , -50%);
+  background-color: #47B2E4;
+  position: absolute;
+}
+
+.power {
+
+  color: #37517E;
+}
+
+.para{
+
+  color: #37517E;
+}
+
+.frequency{
+
+  background-color:#F3F5FA;
+
+
+}
+
+.hori-line1{
+
+  background-color: white;
+  display: flex;
+}
+
+.txt{
+
+  display: inline;
+}
+
+.footer{
+
+  display: flex;
+  justify-content: space-around;
+  gap: 2px;
+}
+
+.iconic{
+
+  width: 30%;
+}
+
+.list-icon li{
+
+  
+  
+  
+  
+}
+
+.gap1{
+
+  display: flex;
+  justify-content: space-between;
+  background-color: #37517E;
+  width:100%;
+  padding: 8px;
+}
+.white{
+
+  height: 55px;
+  background-color: white;
+}
