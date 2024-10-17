@@ -42,12 +42,12 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link  text-white " >contact</a>
+                <a class="nav-link  text-white  " href="contact.php" >contact</a>
               </li>
             </ul>
             <form class="d-flex me-auto" role="search">
              
-              <button class="btn btn-outline-info rounded-4 fw-medium  pe-3 ps-3 text-white" type="submit"><a href="registration.php">Register</a></button>
+              <button class="btn btn-outline-info rounded-4 fw-medium  pe-3 ps-3 text-white" type="submit"><a href="apply.php">Apply</a></button>
             </form>
           </div>
         </div>
