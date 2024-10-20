@@ -31,7 +31,7 @@
 
 <input type="text " name="education" placeholder="Matric/Intermediate/Graduate">
 
-<input type="text" name="Skill" placeholder="Extra Skill">
+<input type="text" name="skill" placeholder="Extra Skill">
 
 <button>Submit</button>
 </form>
